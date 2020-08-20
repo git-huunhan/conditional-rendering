@@ -13,7 +13,7 @@ class App extends Component {
   render(){
     return (
       <div className="App">
-        <p>Use conditional rendering to set list type</p>
+        <h4>Use conditional rendering to set list type</h4>
         <ol type="1">
           {this.list.isRender = false && this.list.map((item, index) => 
             <List key={index} item= {item} />
